@@ -53,7 +53,7 @@ else:
     print("aktivitas tidak valid")
     saran = 0
     
-#kondisi kesehatan 
+# kondisi kesehatan 
 
 if kondisi_kesehatan == "sehat":
     disarankan = 0
@@ -78,7 +78,7 @@ else:
 
 total = rekomendasi + saran + disarankan
 
-#Output
+# Output
 if usia < 3:
     print("masih diberi dukungan asi")
 else:
